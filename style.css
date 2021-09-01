@@ -1,0 +1,23 @@
+:root {
+  --main-primary-color: red;
+  --main-secondary-color: purple;
+  --main-primary-fontstyle: italic;
+  --main-sec-fontstyle: Roboto;
+}
+
+h1 {
+  color: var(--main-primary-color);
+  font-style: var(--main-primary-fontstyle);
+}
+
+h2 {
+  color: var(--main-secondary-color);
+  font-style: var(--main-sec-fontstyle);
+}
+
+.btn1 {
+  color: var(--main-primary-color);
+}
+.btn2 {
+  color: var(--main-secondary-color);
+}
